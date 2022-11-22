@@ -7,7 +7,9 @@ Builder.load_string('''
     MDRectangleFlatIconButton:
         icon: "language-python"
         icon_color:"black"
-    
+        text: "Python Language"
+        text_color: "black"
+      
 
 
 ''')
