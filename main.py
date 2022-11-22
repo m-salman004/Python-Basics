@@ -4,7 +4,7 @@ from kivy.lang import Builder
 Builder.load_string('''
 <FirstScreen>:
     name : 'first'
-    MDRectangleFlatIconButton:
+    MDRoundFlatIconButton:
         icon: "language-python"
         icon_color:"white"
         md_bg_color: "blue"
@@ -18,7 +18,7 @@ Builder.load_string('''
             root.manager.current = 'Second'
 <SecondScreen>:
     name : 'second'   
-    MDRectangleFlatIconButton:
+    MDRoundFlatIconButton:
         icon: "android"
         icon_color:"white"
         md_bg_color: "blue"
@@ -33,7 +33,7 @@ Builder.load_string('''
 
 <ThirdScreen>:
     name : 'third'
-    MDRectangleFlatIconButton:
+    MDRoundFlatIconButton:
         icon: "language-php"
         icon_color:"white"
         md_bg_color: "blue"
@@ -48,7 +48,7 @@ Builder.load_string('''
 
 <FourthScreen>:
     name : 'four'
-    MDRectangleFlatIconButton:
+    MDRoundFlatIconButton:
         icon: "language-cpp"
         icon_color:"white"
         md_bg_color: "blue"
@@ -63,9 +63,10 @@ Builder.load_string('''
         
 <BackScreen>
     name:'back'
-    MDRectangleFlatIconButton:
+    MDRoundFlatIconButton:
+        md_bg_color: "blue"
         text:'Back'
-        text_color: "blue"
+        text_color: "white"
         line_color: "blue"
         font_size: "28sp"
         pos_hint:{'center_x':0.5,'center_y':0.5}
