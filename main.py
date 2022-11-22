@@ -47,3 +47,16 @@ Builder.load_string('''
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
 ''')
+
+class FirstScreen(Screen):
+    pass
+
+
+class SecondScreen(Screen):
+    pass
+
+class ThirdScreen(Screen):
+    pass
+
+class FourthScreen(Screen):
+    pass
