@@ -20,10 +20,13 @@ Builder.load_string('''
     name : 'second'   
     MDRectangleFlatIconButton:
         icon: "android"
-        icon_color:"black"
+        icon_color:"white"
+        md_bg_color: "blue"
+        icon_size: "50sp"
         text: "Android Development"
-        text_color: "black"
-        line_color: "black"
+        text_color: "white"
+        line_color: "blue"
+        font_size: "18sp"
         pos_hint:{'center_x':0.5,'center_y':0.5}
         on_press:
             root.manager.current = 'Third'
