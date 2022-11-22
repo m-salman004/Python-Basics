@@ -68,3 +68,4 @@ class MultipleScreens(MDApp):
         sm.add_widget(SecondScreen(name='Second'))
         sm.add_widget(ThirdScreen(name='Third'))
         sm.add_widget(FourthScreen(name='four'))
+        return sm
