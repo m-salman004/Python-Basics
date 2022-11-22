@@ -46,6 +46,18 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
+        on_press:
+            root.manager.current = 'back'
+        
+<BackScreen>
+    name:'back'
+    MDRectangleFlatIconButton:
+        text:'Back'
+        text_color:"black"
+        line_color:"black"
+        pos_hint:{'center_x':0.5,'center_y':0.5}
+        on_press:
+            root.manager.current = 'first'
 ''')
 
 class FirstScreen(Screen):
@@ -61,6 +73,9 @@ class ThirdScreen(Screen):
 class FourthScreen(Screen):
     pass
 
+class BackScreen(Screen):
+    pass
+
 class MultipleScreens(MDApp):
     def build(self):
         sm = ScreenManager()
@@ -68,6 +83,7 @@ class MultipleScreens(MDApp):
         sm.add_widget(SecondScreen(name='Second'))
         sm.add_widget(ThirdScreen(name='Third'))
         sm.add_widget(FourthScreen(name='four'))
+        sm.add_widget(BackScreen(name='back'))
         return sm
 
 
