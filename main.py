@@ -12,6 +12,7 @@ Builder.load_string('''
         text: "Python Language"
         text_color: "white"
         line_color: "blue"
+        font_size: "18sp"
         pos_hint:{'center_x':0.5,'center_y':0.5}
         on_press:
             root.manager.current = 'Second'
