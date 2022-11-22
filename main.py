@@ -17,6 +17,8 @@ Builder.load_string('''
         icon: "android"
         icon_color:"black"
         text: "Android Development"
-      
+        text_color: "black"
+        line_color: "black"
+        pos_hint:{'center_x':0.5,'center_y':0.5}
 
 ''')
