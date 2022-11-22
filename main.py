@@ -13,6 +13,10 @@ Builder.load_string('''
         pos_hint:{'center_x':0.5,'center_y':0.5}
 <SecondScreen>:
     name : 'second'   
-
+     MDRectangleFlatIconButton:
+        icon: "android"
+        icon_color:"black"
+        text: "Android Development"
+      
 
 ''')
