@@ -11,6 +11,8 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
+         on_press:
+            root.manager.current = 'Second'
 <SecondScreen>:
     name : 'second'   
      MDRectangleFlatIconButton:
@@ -20,6 +22,8 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
+         on_press:
+            root.manager.current = 'Third'
 
 <ThirdScreen>:
     name : 'third'
@@ -30,6 +34,8 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
+         on_press:
+            root.manager.current = 'Four'
 
 <FourthScreen>:
     name : 'four'
