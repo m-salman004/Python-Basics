@@ -60,3 +60,6 @@ class ThirdScreen(Screen):
 
 class FourthScreen(Screen):
     pass
+
+class MultipleScreens(MDApp):
+    def build(self):
