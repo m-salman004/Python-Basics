@@ -21,4 +21,14 @@ Builder.load_string('''
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
 
+<ThirdScreen>:
+    name : 'third'
+    MDRectangleFlatIconButton:
+        icon: "language-php"
+        icon_color:"black"
+        text: "php Language"
+        text_color: "black"
+        line_color: "black"
+        pos_hint:{'center_x':0.5,'center_y':0.5}
+
 ''')
