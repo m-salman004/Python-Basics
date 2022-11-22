@@ -63,3 +63,8 @@ class FourthScreen(Screen):
 
 class MultipleScreens(MDApp):
     def build(self):
+        sm = ScreenManager()
+        sm.add_widget(FirstScreen(name='first'))
+        sm.add_widget(SecondScreen(name='Second'))
+        sm.add_widget(ThirdScreen(name='Third'))
+        sm.add_widget(FourthScreen(name='four'))
