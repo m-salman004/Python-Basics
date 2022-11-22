@@ -31,4 +31,13 @@ Builder.load_string('''
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
 
+<FourthScreen>:
+    name : 'four'
+    MDRectangleFlatIconButton:
+        icon: "language-cpp"
+        icon_color:"black"
+        text: "C++ Language"
+        text_color: "black"
+        line_color: "black"
+        pos_hint:{'center_x':0.5,'center_y':0.5}
 ''')
