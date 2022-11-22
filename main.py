@@ -11,18 +11,18 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
-         on_press:
+        on_press:
             root.manager.current = 'Second'
 <SecondScreen>:
     name : 'second'   
-     MDRectangleFlatIconButton:
+    MDRectangleFlatIconButton:
         icon: "android"
         icon_color:"black"
         text: "Android Development"
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
-         on_press:
+        on_press:
             root.manager.current = 'Third'
 
 <ThirdScreen>:
@@ -34,8 +34,8 @@ Builder.load_string('''
         text_color: "black"
         line_color: "black"
         pos_hint:{'center_x':0.5,'center_y':0.5}
-         on_press:
-            root.manager.current = 'Four'
+        on_press:
+            root.manager.current = 'four'
 
 <FourthScreen>:
     name : 'four'
@@ -69,3 +69,7 @@ class MultipleScreens(MDApp):
         sm.add_widget(ThirdScreen(name='Third'))
         sm.add_widget(FourthScreen(name='four'))
         return sm
+
+
+obj = MultipleScreens()
+obj.run()
