@@ -101,6 +101,9 @@ class ThirdScreen(Screen):
 class FourthScreen(Screen):
     pass
 
+class FifthScreen(Screen):
+    pass
+
 class BackScreen(Screen):
     pass
 
@@ -111,6 +114,7 @@ class MultipleScreens(MDApp):
         sm.add_widget(SecondScreen(name='Second'))
         sm.add_widget(ThirdScreen(name='Third'))
         sm.add_widget(FourthScreen(name='four'))
+        sm.add_widget(FifthScreen(name='fifth'))
         sm.add_widget(BackScreen(name='back'))
         return sm
 
