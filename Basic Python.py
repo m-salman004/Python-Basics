@@ -40,3 +40,6 @@ strr = "This String is a String"
 print(strr.count("String"))
 # String Find
 print(strr.find("String"))
+# Split String
+city = ("I Like FSD, Lahore, ISB, Peshawar and Balochistan")
+print(city.split("ISB"))
