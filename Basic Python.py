@@ -32,5 +32,9 @@ print(strr [11])
 # Length Of String
 strr = "Muhammad Salman"
 print(len(strr))
+# String Lower and Upper Case
 print(strr.lower())
 print(strr.upper())
+# String Count
+strr = "This String is a String"
+print(strr.count("String"))
