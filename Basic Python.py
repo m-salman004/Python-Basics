@@ -50,3 +50,5 @@ print(tup)
 # Extracting Individual Elements
 print(tup[3])
 print(tup[0:1])
+# Length of Tuple
+print(len(tup))
