@@ -82,5 +82,10 @@ print(l)
 l = [4,5,2,1,3,7,8,9]
 # l.reverse()
 # print(l)
+# Inserting of Element
 l.insert(1, "M. Salman")
 print(l)
+# Concatenation of Elements
+l = [1,2,3,4]
+l1 = [6555]
+print(l+l1)
