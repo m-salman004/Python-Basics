@@ -38,3 +38,5 @@ print(strr.upper())
 # String Count
 strr = "This String is a String"
 print(strr.count("String"))
+# String Find
+print(strr.find("String"))
