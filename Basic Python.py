@@ -32,3 +32,4 @@ print(strr [11])
 # Length Of String
 strr = "Muhammad Salman"
 print(len(strr))
+print(strr.lower())
