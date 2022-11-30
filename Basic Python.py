@@ -74,3 +74,7 @@ print(l)
 # Poping of last element
 l.pop()
 print(l)
+# Sorting List Element
+l = [1,4,5,7,8,9,2,3,10,45]
+l.sort()
+print(l)
