@@ -89,3 +89,6 @@ print(l)
 l = [1,2,3,4]
 l1 = [6555]
 print(l+l1)
+# Repeating of Elements
+print(l1*2)
+
