@@ -61,3 +61,6 @@ tup2 = (4,5,6)
 tup1*3
 # Repeating and concatenation
 print(tup2*2+tup1)
+# Minimum & Maximum Value
+print(min(tup1))
+print(max(tup2))
