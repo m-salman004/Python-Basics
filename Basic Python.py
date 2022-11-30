@@ -55,5 +55,9 @@ print(len(tup))
 # Concatenation of Tuple
 tup1 = (1,2,3)
 tup2 = (4,5,6)
-print(tup1+ tup2)
-print(tup2 + tup1)
+# print(tup1+ tup2)
+# print(tup2 + tup1)
+# Repeating Tuple Elements
+tup1*3
+# Repeating and concatenation
+print(tup2*2+tup1)
