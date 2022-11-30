@@ -26,3 +26,6 @@ print(a<b)
 print(a==b)
 print(a!=b)
 
+# Find Word with help of Index
+strr = "Muhammad Salman"
+print(strr [11])
