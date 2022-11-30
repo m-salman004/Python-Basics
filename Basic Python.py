@@ -68,4 +68,6 @@
 l = [1, 22.22, 'salman', False]
 print(l)
 print(l [0:3])
-
+# Appending a new Element
+print(l.append(5))
+print(l)
