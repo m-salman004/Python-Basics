@@ -52,3 +52,8 @@ print(tup[3])
 print(tup[0:1])
 # Length of Tuple
 print(len(tup))
+# Concatenation of Tuple
+tup1 = (1,2,3)
+tup2 = (4,5,6)
+print(tup1+ tup2)
+print(tup2 + tup1)
