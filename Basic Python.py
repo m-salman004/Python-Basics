@@ -71,3 +71,6 @@ print(l [0:3])
 # Appending a new Element
 print(l.append(5))
 print(l)
+# Poping of last element
+l.pop()
+print(l)
