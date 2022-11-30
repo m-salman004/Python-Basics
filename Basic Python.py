@@ -33,3 +33,4 @@ print(strr [11])
 strr = "Muhammad Salman"
 print(len(strr))
 print(strr.lower())
+print(strr.upper())
