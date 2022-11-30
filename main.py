@@ -125,5 +125,7 @@
 
 # Class and Objects
 # How to create a class
-class Classname(self):
-    def __init__(self):
+# class Username (self):
+#     def __init__(self):
+#
+# print(Name)
