@@ -47,3 +47,6 @@
 # Tuples
 tup = (1, 'a', True, 555.4)
 print(tup)
+# Extracting Individual Elements
+print(tup[3])
+print(tup[0:1])
