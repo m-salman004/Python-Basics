@@ -45,22 +45,27 @@
 # print(city.split("ISB"))
 
 # Tuples
-tup = (1, 'a', True, 555.4)
-print(tup)
-# Extracting Individual Elements
-print(tup[3])
-print(tup[0:1])
-# Length of Tuple
-print(len(tup))
-# Concatenation of Tuple
-tup1 = (1,2,3)
-tup2 = (4,5,6)
-# print(tup1+ tup2)
-# print(tup2 + tup1)
-# Repeating Tuple Elements
-tup1*3
-# Repeating and concatenation
-print(tup2*2+tup1)
-# Minimum & Maximum Value
-print(min(tup1))
-print(max(tup2))
+# tup = (1, 'a', True, 555.4)
+# print(tup)
+# # Extracting Individual Elements
+# print(tup[3])
+# print(tup[0:1])
+# # Length of Tuple
+# print(len(tup))
+# # Concatenation of Tuple
+# tup1 = (1,2,3)
+# tup2 = (4,5,6)
+# # print(tup1+ tup2)
+# # print(tup2 + tup1)
+# # Repeating Tuple Elements
+# tup1*3
+# # Repeating and concatenation
+# print(tup2*2+tup1)
+# # Minimum & Maximum Value
+# print(min(tup1))
+# print(max(tup2))
+
+l = [1, 22.22, 'salman', False]
+print(l)
+print(l [0:3])
+
