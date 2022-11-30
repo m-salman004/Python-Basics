@@ -10,3 +10,10 @@ print(subjectname)
 # Data Types
 # Check Data Type
 print(type(subjectname))
+# Operators in Python
+a = 10
+b = 50
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
