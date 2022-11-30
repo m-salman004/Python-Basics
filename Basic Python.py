@@ -78,3 +78,7 @@ print(l)
 l = [1,4,5,7,8,9,2,3,10,45]
 l.sort()
 print(l)
+# Reversing of Elements
+l = [4,5,2,1,3,7,8,9]
+l.reverse()
+print(l)
