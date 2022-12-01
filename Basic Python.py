@@ -121,6 +121,10 @@ print(s1)
 # Remove
 s1.remove(566)
 print(s1)
+# Union of Two Sets
+a = {5,6,7}
+b = {'a','v','g'}
+print(a.union(b))
 
 
 
