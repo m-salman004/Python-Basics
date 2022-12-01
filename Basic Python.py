@@ -109,26 +109,31 @@
 # print(d1)
 
 # Set of Elements
-s1 = {1, 'a', 3.145}
-print(s1)
-# Adding
-s1.add("M. Salman")
-print(s1)
-# Multiple Elements
-s1 = {12, 'k', 20.3}
-s1.update([566,78,20])
-print(s1)
-# Remove
-s1.remove(566)
-print(s1)
-# Union of Two Sets
-a = {5,6,7}
-b = {'a','v','g', 1,2,5}
-print(a.union(b))
-# Intersection
-print(a.intersection(b))
+# s1 = {1, 'a', 3.145}
+# print(s1)
+# # Adding
+# s1.add("M. Salman")
+# print(s1)
+# # Multiple Elements
+# s1 = {12, 'k', 20.3}
+# s1.update([566,78,20])
+# print(s1)
+# # Remove
+# s1.remove(566)
+# print(s1)
+# # Union of Two Sets
+# a = {5,6,7}
+# b = {'a','v','g', 1,2,5}
+# print(a.union(b))
+# # Intersection
+# print(a.intersection(b))
 
-
+# Create Class
+class MyClass ():
+    x = 10
+# Create Object
+x1 = MyClass ()
+print(x1.x)
 
 
 
