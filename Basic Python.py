@@ -92,3 +92,10 @@ print(l+l1)
 # Repeating of Elements
 print(l1*2)
 
+# Dictionary In Python
+d = {"apple": 20, "orange":50}
+# Extracting Keys
+print(d.keys())
+# Extracting Values
+print(d.values())
+
