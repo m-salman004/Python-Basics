@@ -1,7 +1,7 @@
-# from kivymd.app import MDApp
-# from kivy.uix.screenmanager import Screen,ScreenManager
-# from kivy.lang import Builder
-# Builder.load_string('''
+from kivymd.app import MDApp
+from kivy.uix.screenmanager import Screen,ScreenManager
+from kivy.lang import Builder
+Builder.load_string('''
 # <FirstScreen>:
 #     name : 'first'
 #     MDRoundFlatIconButton:
@@ -86,7 +86,7 @@
 #         pos_hint:{'center_x':0.5,'center_y':0.5}
 #         on_press:
 #             root.manager.current = 'first'
-# ''')
+''')
 #
 # class FirstScreen(Screen):
 #     pass

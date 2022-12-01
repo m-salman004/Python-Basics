@@ -65,45 +65,55 @@
 # print(min(tup1))
 # print(max(tup2))
 
-l = [1, 22.22, 'salman', False]
-print(l)
-print(l [0:3])
-# Appending a new Element
-print(l.append(5))
-print(l)
-# Poping of last element
-l.pop()
-print(l)
-# Sorting List Element
-l = [1,4,5,7,8,9,2,3,10,45]
-l.sort()
-print(l)
-# Reversing of Elements
-l = [4,5,2,1,3,7,8,9]
-# l.reverse()
+# l = [1, 22.22, 'salman', False]
 # print(l)
-# Inserting of Element
-l.insert(1, "M. Salman")
-print(l)
-# Concatenation of Elements
-l = [1,2,3,4]
-l1 = [6555]
-print(l+l1)
-# Repeating of Elements
-print(l1*2)
+# print(l [0:3])
+# Appending a new Element
+# print(l.append(5))
+# print(l)
+# # Poping of last element
+# l.pop()
+# print(l)
+# # Sorting List Element
+# l = [1,4,5,7,8,9,2,3,10,45]
+# l.sort()
+# print(l)
+# # Reversing of Elements
+# l = [4,5,2,1,3,7,8,9]
+# # l.reverse()
+# # print(l)
+# # Inserting of Element
+# l.insert(1, "M. Salman")
+# print(l)
+# # Concatenation of Elements
+# l = [1,2,3,4]
+# l1 = [6555]
+# print(l+l1)
+# # Repeating of Elements
+# print(l1*2)
+#
+# # Dictionary In Python
+# d = {"apple": 20, "orange":50}
+# # Extracting Keys
+# print(d.keys())
+# # Extracting Values
+# print(d.values())
+#
+# # Update one dictionary elements with others
+# d1 = {"apple": 20, "orange": 30, "banana":50}
+# d2 = {"fsd": 5000}
+# d1.update(d2)
+# print(d1)
+#
+# d1.pop("apple")
+# print(d1)
 
-# Dictionary In Python
-d = {"apple": 20, "orange":50}
-# Extracting Keys
-print(d.keys())
-# Extracting Values
-print(d.values())
+# Set of Elements
+s1 = {1, 'a', 3.145}
+print(s1)
 
-# Update one dictionary elements with others
-d1 = {"apple": 20, "orange": 30, "banana":50}
-d2 = {"fsd": 5000}
-d1.update(d2)
-print(d1)
 
-d1.pop("apple")
-print(d1)
+
+
+
+
