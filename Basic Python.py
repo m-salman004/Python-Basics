@@ -123,8 +123,10 @@ s1.remove(566)
 print(s1)
 # Union of Two Sets
 a = {5,6,7}
-b = {'a','v','g'}
+b = {'a','v','g', 1,2,5}
 print(a.union(b))
+# Intersection
+print(a.intersection(b))
 
 
 
