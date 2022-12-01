@@ -104,3 +104,6 @@ d1 = {"apple": 20, "orange": 30, "banana":50}
 d2 = {"fsd": 5000}
 d1.update(d2)
 print(d1)
+
+d1.pop("apple")
+print(d1)
