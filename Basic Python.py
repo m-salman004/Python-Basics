@@ -114,6 +114,10 @@ print(s1)
 # Adding
 s1.add("M. Salman")
 print(s1)
+# Multiple Elements
+s1 = {12, 'k', 20.3}
+s1.update([566,78,20])
+print(s1)
 
 
 
