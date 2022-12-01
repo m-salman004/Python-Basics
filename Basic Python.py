@@ -111,7 +111,9 @@
 # Set of Elements
 s1 = {1, 'a', 3.145}
 print(s1)
-
+# Adding
+s1.add("M. Salman")
+print(s1)
 
 
 
