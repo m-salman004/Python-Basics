@@ -99,3 +99,8 @@ print(d.keys())
 # Extracting Values
 print(d.values())
 
+# Update one dictionary elements with others
+d1 = {"apple": 20, "orange": 30, "banana":50}
+d2 = {"fsd": 5000}
+d1.update(d2)
+print(d1)
