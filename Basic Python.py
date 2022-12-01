@@ -118,6 +118,9 @@ print(s1)
 s1 = {12, 'k', 20.3}
 s1.update([566,78,20])
 print(s1)
+# Remove
+s1.remove(566)
+print(s1)
 
 
 
