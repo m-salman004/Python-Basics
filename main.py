@@ -60,6 +60,8 @@ Builder.load_string('''
         mode: "round"
         pos_hint:{'center_x':.5,'center_y':.7}
         size_hint:{0.5,0.1}
+        icon_right: "android"
+        icon_right_color_normal: "blue"
         
 
 <ThirdScreen>:
