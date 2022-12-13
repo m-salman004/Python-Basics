@@ -87,6 +87,15 @@ Builder.load_string('''
         line_color: "blue"
         font_size: "18sp"   
         on_release:app.theme_dark()
+    MDTextField:
+        hint_text: "Enter Password"
+        mode: "rectangle"
+        pos_hint:{'center_x':.5,'center_y':.7}
+        size_hint:{0.4, None}
+        icon_right: "language-php"
+        icon_right_color_normal: "blue"
+        hint_text_color_normal: "blue"
+        line_color_normal: "blue"
 
 <FourthScreen>:
     name : 'four'
