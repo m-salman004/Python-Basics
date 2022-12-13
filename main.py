@@ -57,13 +57,14 @@ Builder.load_string('''
         on_release:app.theme_dark()
     MDTextField:
         hint_text: "Enter Email"
-        mode: "round"
+        mode: "rectangle"
         pos_hint:{'center_x':.5,'center_y':.7}
-        size_hint:{0.5,0.1}
+        size_hint:{0.4, None}
         icon_right: "android"
         icon_right_color_normal: "blue"
+        hint_text_color_normal: "blue"
+        line_color_normal: "blue"
         
-
 <ThirdScreen>:
     name : 'third'
     MDRoundFlatIconButton:
