@@ -55,6 +55,9 @@ Builder.load_string('''
         line_color: "blue"
         font_size: "18sp"   
         on_release:app.theme_dark()
+    MDTextField:
+        hint_text: "Enter Email"
+        mode: "round"
 
 <ThirdScreen>:
     name : 'third'
