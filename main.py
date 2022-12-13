@@ -96,6 +96,7 @@ Builder.load_string('''
         icon_right_color_normal: "blue"
         hint_text_color_normal: "blue"
         line_color_normal: "blue"
+        max_text_length: 8
 
 <FourthScreen>:
     name : 'four'
