@@ -39,6 +39,14 @@ Builder.load_string('''
         pos_hint:{'center_x':0.5,'center_y':0.5}
         on_press:
             root.manager.current = 'Third'
+    MDRoundFlatIconButton:
+        text:"Dark Theme"
+        md_bg_color: "blue"
+        pos_hint:{'center_x':0.85,'center_y':0.1}
+        text_color: "white"
+        line_color: "blue"
+        font_size: "18sp"   
+        on_release:app.theme_dark()
 
 <ThirdScreen>:
     name : 'third'
