@@ -143,21 +143,21 @@
 #
 # p1 = Person("Salman", 22)
 # Object Method
-class Person ():
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-
-    def myfun (self):
-        print("My Name is " + " " +self.name)
-p1 = Person ("M.Salman", 55)
-
-p1.myfun()
-
-
-print(p1.name)
-print(p1.age)
+# class Person ():
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#
+#     def myfun (self):
+#         print("My Name is " + " " +self.name)
+# p1 = Person ("M.Salman", 55)
+#
+# p1.myfun()
+#
+#
+# print(p1.name)
+# print(p1.age)
 
 
 
