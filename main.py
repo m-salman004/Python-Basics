@@ -21,6 +21,8 @@ Builder.load_string('''
         md_bg_color: "blue"
         pos_hint:{'center_x':0.85,'center_y':0.1}
         text_color: "white"
+        line_color: "blue"
+        font_size: "18sp"   
         
         
 <SecondScreen>:
