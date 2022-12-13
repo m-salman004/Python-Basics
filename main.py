@@ -118,6 +118,7 @@ class BackScreen(Screen):
 
 class MultipleScreens(MDApp):
     def build(self):
+        self.theme_cls.theme_style == "Light"
         sm = ScreenManager()
         sm.add_widget(FirstScreen(name='first'))
         sm.add_widget(SecondScreen(name='Second'))
@@ -127,6 +128,12 @@ class MultipleScreens(MDApp):
         sm.add_widget(BackScreen(name='back'))
         return sm
 
+    def theme_dark(self):
+        if self.theme_cls.theme_style == "Light":
+            self.theme_cls.theme_style = "Dark"
+
+        else:
+            self.theme_cls.theme_style = "Light"
 
 obj = MultipleScreens()
 obj.run()
