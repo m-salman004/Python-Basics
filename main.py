@@ -24,7 +24,15 @@ Builder.load_string('''
         line_color: "blue"
         font_size: "18sp"   
         on_release:app.theme_dark()
-        
+    MDTextField:
+        hint_text: "Enter Username"
+        mode: "rectangle"
+        pos_hint:{'center_x':.5,'center_y':.7}
+        size_hint:{0.5,0.1}
+        icon_right: "language-python"
+        icon_right_color_normal: "blue"
+        hint_text_color_normal: "blue"
+        line_color_normal: "blue"
 <SecondScreen>:
     name : 'second'
     MDRoundFlatIconButton:
@@ -116,6 +124,7 @@ Builder.load_string('''
         line_color: "blue"
         font_size: "18sp"   
         on_release:app.theme_dark()
+    
 <BackScreen>
     name:'back'
     MDRoundFlatIconButton:
@@ -131,7 +140,6 @@ Builder.load_string('''
 
 class FirstScreen(Screen):
     pass
-
 
 class SecondScreen(Screen):
     pass
