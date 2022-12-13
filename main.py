@@ -23,7 +23,7 @@ Builder.load_string('''
         text_color: "white"
         line_color: "blue"
         font_size: "18sp"   
-        
+        on_release:app.theme_dark()
         
 <SecondScreen>:
     name : 'second'
