@@ -19,7 +19,9 @@ Builder.load_string('''
     MDRoundFlatIconButton:
         text:"Dark Theme"
         md_bg_color: "blue"
-       
+        pos_hint:{'center_x':0.85,'center_y':0.1}
+        text_color: "white"
+        
         
 <SecondScreen>:
     name : 'second'
