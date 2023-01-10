@@ -12,4 +12,15 @@ ScreenManager:
             cols:4
             padding: dp(4), dp(25)
             spacing: dp(4)
-            
+            MDLabel:
+                text: "Hello World " 
+            MDLabel:
+                text: "Hello World"
+            MDLabel:
+                text: "Hello World"
+            MDLabel:
+                text: "Hello World"
+           
+    
+'''
+
