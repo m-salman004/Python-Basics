@@ -10,3 +10,6 @@ ScreenManager:
         MDGridLayout:
             adaptive_height: True
             cols:4
+            padding: dp(4), dp(25)
+            spacing: dp(4)
+            
