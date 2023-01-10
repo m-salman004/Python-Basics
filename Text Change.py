@@ -11,3 +11,7 @@ ScreenManager:
         text: "Hello World"
         font_size: "20sp"
         pos_hint:{'center_x':0.92,'center_y':0.5}
+    MDRectangleFlatButton:
+        text: "Change Text"
+        md_bg_color: "blue"
+        
