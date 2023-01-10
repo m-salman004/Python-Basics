@@ -16,4 +16,6 @@ ScreenManager:
         md_bg_color: "blue"
         text_color: "white"
         line_color: "blue"
-       
+        font_size: "20sp"
+        pos_hint:{'center_x':0.5,'center_y':0.10}
+        
