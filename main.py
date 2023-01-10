@@ -33,6 +33,7 @@ Builder.load_string('''
         icon_right_color_normal: "blue"
         hint_text_color_normal: "blue"
         line_color_normal: "blue"
+        text_color: "white"
 <SecondScreen>:
     name : 'second'
     MDRoundFlatIconButton:
@@ -190,6 +191,7 @@ class MultipleScreens(MDApp):
     def theme_dark(self):
         if self.theme_cls.theme_style == "Light":
             self.theme_cls.theme_style = "Dark"
+
 
         else:
             self.theme_cls.theme_style = "Light"
