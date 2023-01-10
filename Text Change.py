@@ -27,3 +27,12 @@ class First(Screen):
 sm = ScreenManager()
 sm.add_widget(First(name='first'))
 
+class Textchange(MDApp):
+    def change_text(self):
+       self.string.get_screen('first').ids.A.text = "Text Changing "
+
+    def build(self):
+        self.string = Builder.load_string(Builder_string)
+        return self.string
+    
+Textchange().run()
