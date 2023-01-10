@@ -9,5 +9,5 @@ ScreenManager:
     MDLabel:
         id: A
         text: "Hello World"
-    
-'''
+        font_size: "20sp"
+        pos_hint:{'center_x':0.92,'center_y':0.5}
