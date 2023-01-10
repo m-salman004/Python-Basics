@@ -18,7 +18,7 @@ ScreenManager:
         line_color: "blue"
         font_size: "20sp"
         pos_hint:{'center_x':0.5,'center_y':0.10}
-        
+        on_release:app.change_text()
 '''
 
 class First(Screen):
@@ -34,5 +34,5 @@ class Textchange(MDApp):
     def build(self):
         self.string = Builder.load_string(Builder_string)
         return self.string
-    
+
 Textchange().run()
