@@ -24,3 +24,6 @@ ScreenManager:
 class First(Screen):
     pass
 
+sm = ScreenManager()
+sm.add_widget(First(name='first'))
+
