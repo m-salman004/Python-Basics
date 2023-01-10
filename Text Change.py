@@ -19,3 +19,8 @@ ScreenManager:
         font_size: "20sp"
         pos_hint:{'center_x':0.5,'center_y':0.10}
         
+'''
+
+class First(Screen):
+    pass
+
