@@ -31,4 +31,10 @@ class First(Screen):
 sm = ScreenManager()
 sm.add_widget(First(name='first'))
 
+class GridLayout(MDApp):
+    def build(self):
+        self.string = Builder.load_string(Builder_string)
+        return self.string
+
+GridLayout().run()
 
