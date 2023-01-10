@@ -14,4 +14,6 @@ ScreenManager:
     MDRectangleFlatButton:
         text: "Change Text"
         md_bg_color: "blue"
-        
+        text_color: "white"
+        line_color: "blue"
+       
